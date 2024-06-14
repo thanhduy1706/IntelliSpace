@@ -16,7 +16,7 @@ jobs:
     - name: Fork Sync
       uses: tgymnich/fork-sync@v1.2.1
       with:
-        owner: thanhduy1706  # Your GitHub username
+        owner: NVCLong
         github_token: ${{ secrets.SYNCFORK_TOKEN }}
         head: master
         base: master
